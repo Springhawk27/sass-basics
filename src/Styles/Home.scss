@@ -1,0 +1,40 @@
+@import "../Variables//Variables.scss";
+
+
+// @mixin buttonStyle {
+//     width: 200px;
+//     height: 40px;
+//     background-color: $buttonColor;
+//     border: none;
+//     border-radius: 10px;
+//     color: $whiteColor;
+// }
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: $redColor;
+    }
+    // button {
+    //     @include buttonStyle();
+    // }
+
+    // button {
+    //     @include buttonStyle($redColor,35px);
+    // }
+
+    button {
+        @include buttonStyle(blue,30px);
+    }
+}
+
+// button {
+//     width: 200px;
+//     height: 40px;
+//     background-color: $buttonColor;
+//     border: none;
+//     border-radius: 10px;
+//     color: $whiteColor;
+// }

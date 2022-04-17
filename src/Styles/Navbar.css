@@ -29,4 +29,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #0538c7;
+  border: none;
+  border-radius: 10px;
+  color: #dfdede;
+}
 /*# sourceMappingURL=Navbar.css.map */
